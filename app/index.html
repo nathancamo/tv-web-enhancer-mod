@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark light">
+  <title>TV Web Enhancer Portal</title>
+  <style>
+    :root { color-scheme: dark light; }
+    body {
+      background: #090d16;
+      color: #f8fafc;
+      font-family: system-ui, sans-serif;
+      padding: 44px;
+    }
+    h1 { font-size: 32px; margin-bottom: 8px; }
+    p { color: #94a3b8; margin-bottom: 28px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    a.portal-card {
+      display: block;
+      background: #111827;
+      border: 2px solid rgba(148, 163, 184, 0.2);
+      border-radius: 16px;
+      padding: 24px;
+      color: #f8fafc;
+      text-decoration: none;
+    }
+    a.portal-card strong { font-size: 20px; display: block; margin-bottom: 6px; color: #38bdf8; }
+    a.portal-card span { font-size: 14px; color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <h1>TV Web Enhancer &amp; Portal</h1>
+  <p>TizenBrew Site Modification script is active on this page. Use the TV D-Pad to navigate links or Color buttons for Zoom / OLED Dimmer.</p>
+  <div class="grid">
+    <a class="portal-card" href="http://192.168.68.66:3002">
+      <strong>Home Server Gateway (:3002)</strong>
+      <span>minipc Homepage Dashboard</span>
+    </a>
+    <a class="portal-card" href="http://192.168.68.66:5380">
+      <strong>Technitium DNS (minipc)</strong>
+      <span>http://192.168.68.66:5380</span>
+    </a>
+    <a class="portal-card" href="http://192.168.68.122:5380">
+      <strong>Technitium DNS (thinkcentre)</strong>
+      <span>http://192.168.68.122:5380</span>
+    </a>
+    <a class="portal-card" href="http://192.168.68.66:8123">
+      <strong>Home Assistant</strong>
+      <span>http://192.168.68.66:8123</span>
+    </a>
+    <a class="portal-card" href="http://192.168.68.122:3001">
+      <strong>Uptime Kuma</strong>
+      <span>http://192.168.68.122:3001</span>
+    </a>
+    <a class="portal-card" href="http://192.168.68.122:8080">
+      <strong>Open WebUI</strong>
+      <span>http://192.168.68.122:8080</span>
+    </a>
+  </div>
+  <script src="../dist/index.js"></script>
+</body>
+</html>

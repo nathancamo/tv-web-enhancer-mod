@@ -1,0 +1,16 @@
+{
+  "name": "tizenbrew-tv-web-enhancer",
+  "version": "1.0.0",
+  "description": "TizenBrew Site Modification (mods) module: injects 2D D-Pad spatial focus rings, ad/popup cosmetic blocker, OLED dimmer, and quick portal switcher into your homelab dashboard or any website.",
+  "packageType": "mods",
+  "appName": "TV Web Enhancer Mod",
+  "websiteURL": "http://192.168.68.66:3002",
+  "main": "dist/index.js",
+  "evaluateScriptOnDocumentStart": false,
+  "keys": [
+    "ColorF0Red",
+    "ColorF1Green",
+    "ColorF2Yellow",
+    "ColorF3Blue"
+  ]
+}
